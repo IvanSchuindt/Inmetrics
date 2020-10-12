@@ -22,6 +22,45 @@
 			<version>3.141.59</version>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-java</artifactId>
+			<version>6.8.1</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-junit</artifactId>
+			<version>6.8.1</version>
+			<scope>test</scope>
+		</dependency>
+
+<!--		&lt;!&ndash; https://mvnrepository.com/artifact/junit/junit &ndash;&gt;-->
+<!--		<dependency>-->
+<!--			<groupId>junit</groupId>-->
+<!--			<artifactId>junit</artifactId>-->
+<!--			<version>4.13.1</version>-->
+<!--			<scope>test</scope>-->
+<!--		</dependency>-->
+
+		<!-- https://mvnrepository.com/artifact/click.webelement/parameterized-findby -->
+		<dependency>
+			<groupId>click.webelement</groupId>
+			<artifactId>parameterized-findby</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.github.mkolisnyk/cucumber-runner -->
+		<dependency>
+			<groupId>com.github.mkolisnyk</groupId>
+			<artifactId>cucumber-runner</artifactId>
+			<version>1.0.8</version>
+		</dependency>
+
+
+
 	</dependencies>
 
 	<build>
